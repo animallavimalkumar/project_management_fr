@@ -1,0 +1,66 @@
+.projects-container {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Bootstrap Form Styling */
+  .project-form input,
+  .project-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Bootstrap Button Styling */
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .btn-danger {
+    margin-top: 10px;
+  }
+  
+  /* Project List */
+  .project-list,
+  .suggestions-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .project-list li,
+  .suggestions-list li {
+    background: #f8f9fa;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: left;
+    border-left: 5px solid #007bff;
+  }
+  
+  /* Implementation Plan Box */
+  .implementation-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f0f8ff;
+    border-left: 5px solid #28a745;
+    border-radius: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .projects-container {
+      width: 90%;
+    }
+  }
+  
